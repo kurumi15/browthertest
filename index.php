@@ -8,7 +8,7 @@
    </form>
    <?php
     if (@$_GET['send']) {
-      https://www.google.co.jp/
+      header(location: "https://www.google.co.jp/");
       //echo "サブミットボタンを押しました。";
     }
   ?>
