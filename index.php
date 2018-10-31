@@ -9,7 +9,7 @@
    <?php
     if (@$_GET['send']) {
       $url="https://www.google.co.jp/";
-      header("location: $url");
+      header("Location: $url");
       //echo "サブミットボタンを押しました。";
     }
   ?>
