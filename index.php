@@ -3,7 +3,7 @@
   <title>PHP Test</title>
  </head>
  <body>
-   <form action="submit.php" method="get">
+   <form>
     <input type="submit" name="send" value="テスト">
    </form>
    <?php
