@@ -4,7 +4,7 @@
  </head>
  <body>
    <form>
-    <input type="submit" name="send" value="テスト">
+    <input type="submit" name="send" value="LINEログイン">
    </form>
    <?php
     if (@$_GET['send']) {
