@@ -8,7 +8,7 @@
    </form>
    <?php
     if (@$_GET['send']) {
-      $url="https://www.google.co.jp/";
+      $url="https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=1625867408&redirect_uri=https://browthertest.herokuapp.com/&state=keikeikei0321&scope=openid%20profile";
       header("Location: $url");
       //echo "サブミットボタンを押しました。";
     }
